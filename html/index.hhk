@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html#ad417fa9fe4d24dfa5cc4ebf225d25924"><param name="Name" value="accelFullScale"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html#a7672ed645f84e1944fba59019e876a1c"><param name="Name" value="accelX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html#a5e8b7389bc8c7d486eb225ebc9009339"><param name="Name" value="accelY"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html#a5d8fa3af7dbbc344278c069c38b8ed69"><param name="Name" value="accelZ"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html#a793f99a3aeb582c016370be1f89e5ba1"><param name="Name" value="AFS_SEL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html#afad53004ec0cdb9db780547d8abd9084"><param name="Name" value="i2cAddr"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe"><param name="Name" value="main(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8c.html"><param name="Name" value="main.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe"><param name="Name" value="main(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8c.html"><param name="Name" value="main.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8c.html#abe0e1faca374c93c225d0732db3e8a46"><param name="Name" value="MAX_LOOP_COUNTER"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8c.html#abe0e1faca374c93c225d0732db3e8a46"><param name="Name" value="MAX_LOOP_COUNTER"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html"><param name="Name" value="mpu6050.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#a344ece30d8f6e2dbe4b7e79afbee8f13"><param name="Name" value="mpu6050_deInit(Mpu6050_Config_t *pConfig)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html"><param name="Name" value="mpu6050.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#a8521101ca6c7671b1bf6e41a91cabb08"><param name="Name" value="mpu6050_getAccelX(Mpu6050_Config_t *pConfig)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html"><param name="Name" value="mpu6050.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#a053f8c30181a4ada24bb330b21f7655d"><param name="Name" value="mpu6050_getAccelY(Mpu6050_Config_t *pConfig)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html"><param name="Name" value="mpu6050.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#aa21f0ba26d459a178bc05c7bcedf0ace"><param name="Name" value="mpu6050_getAccelZ(Mpu6050_Config_t *pConfig)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html"><param name="Name" value="mpu6050.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#ad35487c9515f33a37b33e6d7568f784e"><param name="Name" value="mpu6050_init(uint8_t addr, Mpu6050_AccelFullScale_e fullScale)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html"><param name="Name" value="mpu6050.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#ae8cd004d5a1603c8f92b39b240c75fe6"><param name="Name" value="mpu6050_updateAccelData(Mpu6050_Config_t *pConfig)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html"><param name="Name" value="mpu6050.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a9c6766ccef3b3ae76169362d6847b403a5b1bd12dd6fbe68e1236470a99a458ce"><param name="Name" value="Mpu6050_AccelFullScale_16g"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html"><param name="Name" value="mpu6050.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a9c6766ccef3b3ae76169362d6847b403a965c10ecea199ddd0979fa4e6d2fe9d3"><param name="Name" value="Mpu6050_AccelFullScale_2g"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html"><param name="Name" value="mpu6050.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a9c6766ccef3b3ae76169362d6847b403ab12b927c7cdcbd72c62bcef9546a9da1"><param name="Name" value="Mpu6050_AccelFullScale_4g"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html"><param name="Name" value="mpu6050.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a9c6766ccef3b3ae76169362d6847b403a863d3f7418accd2ed53d5b6188916ad2"><param name="Name" value="Mpu6050_AccelFullScale_8g"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html"><param name="Name" value="mpu6050.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a9c6766ccef3b3ae76169362d6847b403"><param name="Name" value="Mpu6050_AccelFullScale_e"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html"><param name="Name" value="mpu6050.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a82009e1078a35914ba7cac22b4dca79a"><param name="Name" value="Mpu6050_Config_t"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html"><param name="Name" value="mpu6050.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a344ece30d8f6e2dbe4b7e79afbee8f13"><param name="Name" value="mpu6050_deInit(Mpu6050_Config_t *pConfig)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html"><param name="Name" value="mpu6050.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a8521101ca6c7671b1bf6e41a91cabb08"><param name="Name" value="mpu6050_getAccelX(Mpu6050_Config_t *pConfig)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html"><param name="Name" value="mpu6050.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a053f8c30181a4ada24bb330b21f7655d"><param name="Name" value="mpu6050_getAccelY(Mpu6050_Config_t *pConfig)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html"><param name="Name" value="mpu6050.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#aa21f0ba26d459a178bc05c7bcedf0ace"><param name="Name" value="mpu6050_getAccelZ(Mpu6050_Config_t *pConfig)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html"><param name="Name" value="mpu6050.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#ad35487c9515f33a37b33e6d7568f784e"><param name="Name" value="mpu6050_init(uint8_t addr, Mpu6050_AccelFullScale_e fullScale)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html"><param name="Name" value="mpu6050.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#ae8cd004d5a1603c8f92b39b240c75fe6"><param name="Name" value="mpu6050_updateAccelData(Mpu6050_Config_t *pConfig)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a9c6766ccef3b3ae76169362d6847b403a5b1bd12dd6fbe68e1236470a99a458ce"><param name="Name" value="Mpu6050_AccelFullScale_16g"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a9c6766ccef3b3ae76169362d6847b403a965c10ecea199ddd0979fa4e6d2fe9d3"><param name="Name" value="Mpu6050_AccelFullScale_2g"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a9c6766ccef3b3ae76169362d6847b403ab12b927c7cdcbd72c62bcef9546a9da1"><param name="Name" value="Mpu6050_AccelFullScale_4g"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a9c6766ccef3b3ae76169362d6847b403a863d3f7418accd2ed53d5b6188916ad2"><param name="Name" value="Mpu6050_AccelFullScale_8g"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a9c6766ccef3b3ae76169362d6847b403"><param name="Name" value="Mpu6050_AccelFullScale_e"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a82009e1078a35914ba7cac22b4dca79a"><param name="Name" value="Mpu6050_Config_t"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html"><param name="Name" value="Mpu6050_Config_Tag"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html"><param name="Name" value="Mpu6050_Config_Tag"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html#ad417fa9fe4d24dfa5cc4ebf225d25924"><param name="Name" value="accelFullScale"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html"><param name="Name" value="Mpu6050_Config_Tag"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html#a7672ed645f84e1944fba59019e876a1c"><param name="Name" value="accelX"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html"><param name="Name" value="Mpu6050_Config_Tag"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html#a5e8b7389bc8c7d486eb225ebc9009339"><param name="Name" value="accelY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html"><param name="Name" value="Mpu6050_Config_Tag"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html#a5d8fa3af7dbbc344278c069c38b8ed69"><param name="Name" value="accelZ"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html"><param name="Name" value="Mpu6050_Config_Tag"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___config___tag.html#afad53004ec0cdb9db780547d8abd9084"><param name="Name" value="i2cAddr"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#a344ece30d8f6e2dbe4b7e79afbee8f13"><param name="Name" value="mpu6050_deInit(Mpu6050_Config_t *pConfig)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#a344ece30d8f6e2dbe4b7e79afbee8f13"><param name="Name" value="mpu6050.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a344ece30d8f6e2dbe4b7e79afbee8f13"><param name="Name" value="mpu6050_deInit(Mpu6050_Config_t *pConfig)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a344ece30d8f6e2dbe4b7e79afbee8f13"><param name="Name" value="mpu6050.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#a8521101ca6c7671b1bf6e41a91cabb08"><param name="Name" value="mpu6050_getAccelX(Mpu6050_Config_t *pConfig)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#a8521101ca6c7671b1bf6e41a91cabb08"><param name="Name" value="mpu6050.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a8521101ca6c7671b1bf6e41a91cabb08"><param name="Name" value="mpu6050_getAccelX(Mpu6050_Config_t *pConfig)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a8521101ca6c7671b1bf6e41a91cabb08"><param name="Name" value="mpu6050.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#a053f8c30181a4ada24bb330b21f7655d"><param name="Name" value="mpu6050_getAccelY(Mpu6050_Config_t *pConfig)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#a053f8c30181a4ada24bb330b21f7655d"><param name="Name" value="mpu6050.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a053f8c30181a4ada24bb330b21f7655d"><param name="Name" value="mpu6050_getAccelY(Mpu6050_Config_t *pConfig)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#a053f8c30181a4ada24bb330b21f7655d"><param name="Name" value="mpu6050.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#aa21f0ba26d459a178bc05c7bcedf0ace"><param name="Name" value="mpu6050_getAccelZ(Mpu6050_Config_t *pConfig)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#aa21f0ba26d459a178bc05c7bcedf0ace"><param name="Name" value="mpu6050.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#aa21f0ba26d459a178bc05c7bcedf0ace"><param name="Name" value="mpu6050_getAccelZ(Mpu6050_Config_t *pConfig)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#aa21f0ba26d459a178bc05c7bcedf0ace"><param name="Name" value="mpu6050.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#ad35487c9515f33a37b33e6d7568f784e"><param name="Name" value="mpu6050_init(uint8_t addr, Mpu6050_AccelFullScale_e fullScale)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#ad35487c9515f33a37b33e6d7568f784e"><param name="Name" value="mpu6050.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#ad35487c9515f33a37b33e6d7568f784e"><param name="Name" value="mpu6050_init(uint8_t addr, Mpu6050_AccelFullScale_e fullScale)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#ad35487c9515f33a37b33e6d7568f784e"><param name="Name" value="mpu6050.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html"><param name="Name" value="Mpu6050_RegDef_t"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html"><param name="Name" value="Mpu6050_RegDef_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html#a793f99a3aeb582c016370be1f89e5ba1"><param name="Name" value="AFS_SEL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html"><param name="Name" value="Mpu6050_RegDef_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html#ad3036fc0fa7de3937c51f270681f8d06"><param name="Name" value="resrved"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html"><param name="Name" value="Mpu6050_RegDef_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html#ab5a9474bef0bb7a04fc748b54ec4913d"><param name="Name" value="XA_ST"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html"><param name="Name" value="Mpu6050_RegDef_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html#a2d01bd0d022a5efb92e8722cb1105daf"><param name="Name" value="YA_ST"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html"><param name="Name" value="Mpu6050_RegDef_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html#af9b03e9f28fba1c2a8c0e2d13d995889"><param name="Name" value="ZA_ST"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#ae8cd004d5a1603c8f92b39b240c75fe6"><param name="Name" value="mpu6050_updateAccelData(Mpu6050_Config_t *pConfig)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8c.html#ae8cd004d5a1603c8f92b39b240c75fe6"><param name="Name" value="mpu6050.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#ae8cd004d5a1603c8f92b39b240c75fe6"><param name="Name" value="mpu6050_updateAccelData(Mpu6050_Config_t *pConfig)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="mpu6050_8h.html#ae8cd004d5a1603c8f92b39b240c75fe6"><param name="Name" value="mpu6050.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html#ad3036fc0fa7de3937c51f270681f8d06"><param name="Name" value="resrved"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html#ab5a9474bef0bb7a04fc748b54ec4913d"><param name="Name" value="XA_ST"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html#a2d01bd0d022a5efb92e8722cb1105daf"><param name="Name" value="YA_ST"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_mpu6050___reg_def__t.html#af9b03e9f28fba1c2a8c0e2d13d995889"><param name="Name" value="ZA_ST"></OBJECT>
+</UL>
+</BODY>
+</HTML>

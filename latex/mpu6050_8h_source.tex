@@ -1,0 +1,62 @@
+\doxysection{mpu6050.\+h}
+\hypertarget{mpu6050_8h_source}{}\label{mpu6050_8h_source}\index{Sensors/mpu6050.h@{Sensors/mpu6050.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ *\ mpu6050.h}}
+\DoxyCodeLine{00003\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ *\ \ Created\ on:\ Jan\ 7,\ 2025}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ *\ \ \ \ \ \ Author:\ modug}}
+\DoxyCodeLine{00006\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ SENSORS\_MPU6050\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ SENSORS\_MPU6050\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <stdint.h>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <stdbool.h>}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00015\ \textcolor{comment}{\ *\ Always\ typedef\ structures}}
+\DoxyCodeLine{00016\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00017\ \textcolor{comment}{\ *\ Use\ PascalCase\ for\ typedef\ name(Variable\ name\ still\ use\ camelCase)}}
+\DoxyCodeLine{00018\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00019\ \textcolor{comment}{\ *\ add\ suffix\ \_t\ to\ typedef\ name}}
+\DoxyCodeLine{00020\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00021\ \textcolor{comment}{\ *\ Good\ to\ use\ <filename>\_\ as\ a\ prefix\ if\ that\ struct\ is\ specific\ to\ mpu6050}}
+\DoxyCodeLine{00022\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00023\ \textcolor{comment}{/*typedef\ struct\{}}
+\DoxyCodeLine{00024\ \textcolor{comment}{\ \ \ \ int16\_t\ accelX;}}
+\DoxyCodeLine{00025\ \textcolor{comment}{\ \ \ \ int16\_t\ accelY;}}
+\DoxyCodeLine{00026\ \textcolor{comment}{\ \ \ \ int16\_t\ accelZ;}}
+\DoxyCodeLine{00027\ \textcolor{comment}{\ \ \ \ bool\ \ \ \ isValid;}}
+\DoxyCodeLine{00028\ \textcolor{comment}{\}Mpu6050\_AccelData\_t;*/}}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct}\{}
+\DoxyCodeLine{00031\ \ \ \ \ uint8\_t\ \ resrved\ :\ 3;}
+\DoxyCodeLine{00032\ \ \ \ \ uint8\_t\ \ AFS\_SEL\ :\ 2;}
+\DoxyCodeLine{00033\ \ \ \ \ uint8\_t\ \ ZA\_ST\ \ \ :\ 1;}
+\DoxyCodeLine{00034\ \ \ \ \ uint8\_t\ \ YA\_ST\ \ \ :\ 1;}
+\DoxyCodeLine{00035\ \ \ \ \ uint8\_t\ \ XA\_ST\ \ \ :\ 1;}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \}\mbox{\hyperlink{struct_mpu6050___reg_def__t}{Mpu6050\_RegDef\_t}};}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00041\ \ \ \ \ Mpu6050\_AccelFullScale\_2g\ =0,}
+\DoxyCodeLine{00042\ \ \ \ \ Mpu6050\_AccelFullScale\_4g,}
+\DoxyCodeLine{00043\ \ \ \ \ Mpu6050\_AccelFullScale\_8g,}
+\DoxyCodeLine{00044\ \ \ \ \ Mpu6050\_AccelFullScale\_16g,}
+\DoxyCodeLine{00045\ \}Mpu6050\_AccelFullScale\_e;}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00047\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_mpu6050___config___tag}{Mpu6050\_Config\_Tag}}\ Mpu6050\_Config\_t;}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ Mpu6050\_Config\_t*\ mpu6050\_init\ \ \ \ (uint8\_t\ addr,\ Mpu6050\_AccelFullScale\_e\ fullScale);}
+\DoxyCodeLine{00050\ \textcolor{keywordtype}{void}\ \ \ \ \ mpu6050\_updateAccelData\ \ \ (Mpu6050\_Config\_t\ *pConfig);}
+\DoxyCodeLine{00051\ int16\_t\ \ mpu6050\_getAccelX\ \ \ \ \ \ \ \ \ (Mpu6050\_Config\_t\ *pConfig);}
+\DoxyCodeLine{00052\ int16\_t\ \ mpu6050\_getAccelY\ \ \ \ \ \ \ \ \ (Mpu6050\_Config\_t\ *pConfig);}
+\DoxyCodeLine{00053\ int16\_t\ \ mpu6050\_getAccelZ\ \ \ \ \ \ \ \ \ (Mpu6050\_Config\_t\ *pConfig);}
+\DoxyCodeLine{00054\ \textcolor{keywordtype}{void}\ \ \ \ \ mpu6050\_deInit\ \ \ \ \ \ \ \ \ \ \ \ (Mpu6050\_Config\_t\ *pConfig);}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00056\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ SENSORS\_MPU6050\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

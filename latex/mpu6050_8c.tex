@@ -1,0 +1,39 @@
+\doxysection{Sensors/mpu6050.c File Reference}
+\hypertarget{mpu6050_8c}{}\label{mpu6050_8c}\index{Sensors/mpu6050.c@{Sensors/mpu6050.c}}
+{\ttfamily \#include "{}mpu6050.\+h"{}}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+\doxysubsubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_mpu6050___config___tag}{Mpu6050\+\_\+\+Config\+\_\+\+Tag}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{mpu6050_8c_ad35487c9515f33a37b33e6d7568f784e}\label{mpu6050_8c_ad35487c9515f33a37b33e6d7568f784e} 
+\mbox{\hyperlink{struct_mpu6050___config___tag}{Mpu6050\+\_\+\+Config\+\_\+t}} \texorpdfstring{$\ast$}{*} {\bfseries mpu6050\+\_\+init} (uint8\+\_\+t addr, Mpu6050\+\_\+\+Accel\+Full\+Scale\+\_\+e full\+Scale)
+\item 
+\Hypertarget{mpu6050_8c_ae8cd004d5a1603c8f92b39b240c75fe6}\label{mpu6050_8c_ae8cd004d5a1603c8f92b39b240c75fe6} 
+void {\bfseries mpu6050\+\_\+update\+Accel\+Data} (\mbox{\hyperlink{struct_mpu6050___config___tag}{Mpu6050\+\_\+\+Config\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+Config)
+\item 
+\Hypertarget{mpu6050_8c_a8521101ca6c7671b1bf6e41a91cabb08}\label{mpu6050_8c_a8521101ca6c7671b1bf6e41a91cabb08} 
+int16\+\_\+t {\bfseries mpu6050\+\_\+get\+AccelX} (\mbox{\hyperlink{struct_mpu6050___config___tag}{Mpu6050\+\_\+\+Config\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+Config)
+\item 
+\Hypertarget{mpu6050_8c_a053f8c30181a4ada24bb330b21f7655d}\label{mpu6050_8c_a053f8c30181a4ada24bb330b21f7655d} 
+int16\+\_\+t {\bfseries mpu6050\+\_\+get\+AccelY} (\mbox{\hyperlink{struct_mpu6050___config___tag}{Mpu6050\+\_\+\+Config\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+Config)
+\item 
+\Hypertarget{mpu6050_8c_aa21f0ba26d459a178bc05c7bcedf0ace}\label{mpu6050_8c_aa21f0ba26d459a178bc05c7bcedf0ace} 
+int16\+\_\+t {\bfseries mpu6050\+\_\+get\+AccelZ} (\mbox{\hyperlink{struct_mpu6050___config___tag}{Mpu6050\+\_\+\+Config\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+Config)
+\item 
+\Hypertarget{mpu6050_8c_a344ece30d8f6e2dbe4b7e79afbee8f13}\label{mpu6050_8c_a344ece30d8f6e2dbe4b7e79afbee8f13} 
+void {\bfseries mpu6050\+\_\+de\+Init} (\mbox{\hyperlink{struct_mpu6050___config___tag}{Mpu6050\+\_\+\+Config\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+Config)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyDate}{Date}
+Created on\+: Jan 7, 2025 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+modug 
+\end{DoxyAuthor}
