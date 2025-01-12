@@ -9,10 +9,40 @@
 #include<stdbool.h>
 #include<mpu6050.h>
 
+/*
+ * Use uppercase letters for macro namings and use _to seperate words
+ * can use __ between prefix and name
+ *
+ *
+ */
 
 
-#define MAX_LOOP_COUNTER  (10)
+#define MAIN_TASK_SIG__SUSPEND 1
+#define MAIN_TASK_SIG__RESUME  2
+#define MAIN_TASK_SIG__STAT    3
+/*
+ * Defining constants
+ * when there is arithmetic in the definition use paranthesis
+ *
+ */
+#define MAX_LOOP_COUNTER  (5*2)
 
+/*
+ * Function like macros
+ *
+ * Macros work better in generalization(as they are not type specific)
+ * For each use of macro parameter you have to surround it with parentheses
+ * if the return variable type is necessary, use normal C function.
+ *
+ */
+#define DEGREES_TO_FAHRENHEIT(X)  ((((X) * 18) / 10) + 32)
+#define FAHRENHEIT_TO_DEGREES(X)  ((((X) - 32) * 10) / 18)
+
+/*
+ * X MACROS
+ *
+ *
+ */
 /*
  * Rules To follow
  *
@@ -65,7 +95,7 @@ int main(void)
 
 	Mpu6050_RegDef_t hAccelConfigReg;
 	hAccelConfigReg.resrved =0;
-	hAccelConfigReg.AFS_SEL = 2;
+	hAccelConfigReg.AFS_SEL = 1;
 	hAccelConfigReg.XA_ST =1;
 	hAccelConfigReg.YA_ST = 0;
 	hAccelConfigReg.ZA_ST =1;
@@ -94,7 +124,7 @@ int main(void)
 	 * If you have same handling for multiple cases, utilize fallthrough.
 	 * When not using enum cases, we must add default case
 	 */
-	Mpu6050_AccelFullScale_e accelFullScale= Mpu6050_AccelFullScale_4g;
+	Mpu6050_AccelFullScale_e accelFullScale= hAccelConfigReg.AFS_SEL;
 	switch(accelFullScale){
 	case Mpu6050_AccelFullScale_2g:
 		printf("Full Scale 2g\n");
@@ -116,6 +146,10 @@ int main(void)
 	for (uint8_t i = 0; i <= MAX_LOOP_COUNTER; i++){
 		printf("Counter Value: %d \n", i);
 	}
+
+	float tempInD = 46.3f;
+	printf("temp in fahrenheit is %.2f \n", DEGREES_TO_FAHRENHEIT(tempInD));
+
 
 	getchar();
 	return 0;
